@@ -25,10 +25,12 @@
   margin-bottom: 56px;
 }
 .card__hexcode {
-  padding: 12px 64px;
+  padding: 12px 0;
+  min-width: 244px;
   border-radius: 22px;
   font-size: 26px;
   text-transform: uppercase;
+  text-align: center;
   background-color: #c1264c;
   /* border: 1px solid rgba(255, 255, 255, 0.52); */
   margin-bottom: 63px;
