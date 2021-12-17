@@ -1,0 +1,57 @@
+.app {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #c1264c;
+  color: #fff;
+  font-family: "Montserrat", sans-serif;
+}
+.card {
+  height: 483px;
+  width: 451px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: rgba(3, 18, 25, 0.25);
+  box-shadow: 0px 8px 50px rgba(0, 0, 0, 0.22);
+  border-radius: 10px;
+}
+.card__title {
+  text-align: center;
+  font-size: 48px;
+  line-height: 130.5%;
+  margin-bottom: 56px;
+}
+.card__hexcode {
+  padding: 12px 64px;
+  border-radius: 22px;
+  font-size: 26px;
+  text-transform: uppercase;
+  background-color: #c1264c;
+  /* border: 1px solid rgba(255, 255, 255, 0.52); */
+  margin-bottom: 63px;
+}
+.card__btnContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  column-gap: 30px;
+}
+.btn {
+  font-size: 20px;
+  min-width: 145px;
+  min-height: 54px;
+  border: 1px solid transparent;
+  border-radius: 12px;
+  cursor: pointer;
+}
+.btn-generator {
+  background-color: #18d5ff;
+}
+.btn-copy {
+  color: #18d5ff;
+  background-color: #5c5c5c73;
+  border-color: #18d5ff;
+}
