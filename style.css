@@ -8,8 +8,8 @@
   font-family: "Montserrat", sans-serif;
 }
 .card {
-  height: 483px;
-  width: 451px;
+  height: 30.1875rem;
+  width: 28.1875rem;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -20,20 +20,20 @@
 }
 .card__title {
   text-align: center;
-  font-size: 48px;
+  font-size: 3rem;
   line-height: 130.5%;
-  margin-bottom: 56px;
+  margin-bottom: 3.5rem;
 }
 .card__hexcode {
   padding: 12px 0;
-  min-width: 244px;
+  min-width: 15.25rem;
   border-radius: 22px;
-  font-size: 26px;
+  font-size: 1.625rem;
   text-transform: uppercase;
   text-align: center;
   background-color: #c1264c;
   /* border: 1px solid rgba(255, 255, 255, 0.52); */
-  margin-bottom: 63px;
+  margin-bottom: 3.9375rem;
 }
 .card__btnContainer {
   display: flex;
@@ -42,9 +42,9 @@
   column-gap: 30px;
 }
 .btn {
-  font-size: 20px;
-  min-width: 145px;
-  min-height: 54px;
+  font-size: 1.25rem;
+  min-width: 9.0625rem;
+  min-height: 3.375rem;
   border: 1px solid transparent;
   border-radius: 12px;
   cursor: pointer;
@@ -56,4 +56,14 @@
   color: #18d5ff;
   background-color: #5c5c5c73;
   border-color: #18d5ff;
+}
+
+@media (max-width: 600px) {
+  :root {
+    font-size: 12px;
+  }
+  .card {
+    height: 370px;
+    width: 320px;
+  }
 }
